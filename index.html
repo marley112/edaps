@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.1/js/all.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn t work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+</head>
+
+<body>
+    <div id="page">
+
+        <header id="main-header" class="main-header">
+            <div class="header__top">
+                <div class="header__top-container container">
+                    <div class="header__contact-list">
+                        <ul>
+                            <li class="header__contact-phone">
+                                <a href="tel:01234567890"><span class="fas fa-phone"></span>01234-567-890</a></li>
+                            <li class="header__contact-hours"><span class="fas fa-clock"></span>8AM – 5PM Mon – Fri</li>
+                            <li class="header__contact-address"><span class="fas fa-map-marker-alt"></span>Big Ben, London, SW1A 0AA</li>
+                        </ul>
+                    </div>
+                    <div class="header__social-list">
+                        <ul>
+                            <li><a href="#" target="_blank"><span class="fab fa-facebook"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="fab fa-google-plus"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+                            <li><a href="#" target="_blank"><span class="fab fa-yelp"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header__bottom">
+                <div class="header__bottom-container container">
+                    <div class="header__logo">
+                        <a href="/"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="menu-mobile-bar" style="display: none">
+                        <a href="#">MENU <span class="fas fa-bars"></span></a>
+                    </div>
+                    <nav>
+                        <ul class="header__main-menu">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li>
+                                <a href="#">services</a>
+                                <ul class="header__main-submenu">
+                                    <li><a href="#">Water Features</a></li>
+                                    <li><a href="#">Garden Maintenance</a></li>
+                                    <li><a href="#">Fencing</a></li>
+                                    <li><a href="#">Soft Landspacing</a></li>
+                                    <li><a href="#">Turfing</a></li>
+                                    <li><a href="#">Hard Landspacing</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">news</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__bottom-container header__bottom-container-mobile container" style="display: none">
+                    <nav>
+                        <ul class="header__main-menu">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li>
+                                <a href="#">services</a>
+                                <ul class="header__main-submenu">
+                                    <li><a href="#">Water Features</a></li>
+                                    <li><a href="#">Garden Maintenance</a></li>
+                                    <li><a href="#">Fencing</a></li>
+                                    <li><a href="#">Soft Landspacing</a></li>
+                                    <li><a href="#">Turfing</a></li>
+                                    <li><a href="#">Hard Landspacing</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">news</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div id="slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slide__overlay"></div>
+                    <img class="d-block w-100" src="images/slide-1.jpg" alt="First slide">
+                    <div class="slide__description">
+                        <div class="slide__description-content">
+                            <h2 class="slide__title"><span class="text-green">Landscaping</span> offers</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id eros sit amet mauris pharetra porta. Quisque consectetur cursus maximus.</p>
+                            <a href="#" class="button slider-button">Services<span class="fas fa-arrow-right button-arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="slide__overlay"></div>
+                    <img class="d-block w-100" src="images/slide-2.jpg" alt="Second slide">
+                    <div class="slide__description">
+                        <div class="slide__description-content">
+                            <h2 class="slide__title"><span class="text-green">Landscaping</span> offers</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id eros sit amet mauris pharetra porta. Quisque consectetur cursus maximus.</p>
+                            <a href="#" class="button slider-button">Services<span class="fas fa-arrow-right button-arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+                <span class="fas fa-caret-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+                <span class="fas fa-caret-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <div class="slider-bar"></div>
+        </div>
+
+        <div id="offers" class="offers-section">
+            <div class="offers__item">
+                <span class="fas fa-check-circle service__icon"></span>
+                <h4 class="offers__title">35 Years Experience</h4>
+                <p>Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="offers__item">
+                <span class="fas fa-check-circle service__icon"></span>
+                <h4 class="offers__title">35 Years Experience</h4>
+                <p>Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="offers__item">
+                <span class="fas fa-check-circle service__icon"></span>
+                <h4 class="offers__title">35 Years Experience</h4>
+                <p>Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="offers__item">
+                <span class="fas fa-check-circle service__icon"></span>
+                <h4 class="offers__title">35 Years Experience</h4>
+                <p>Vestibulum id ligula porta felis euismod semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+
+        <div id="services" class="services-section">
+            <div class="services__container container">
+                <div class="section-header">
+                    <h2 class="section-header__title">Welcome to Edaps</h2>
+                    <div class="section-header__icon">
+                        <div class="section-header__icon-wrap"><span class="fab fa-pagelines"></span></div>
+                    </div>
+                    <p class="section-header__text">Offering the very best in garden landscaping services.</p>
+                </div>
+                <div class="section-articles">
+                    <article>
+                        <a href="#"><img src="images/article-1.jpg" alt=""></a>
+                        <a href="#" class="article__title">
+                            <h3>Garden Maintenance</h3>
+                        </a>
+                        <p class="article__content">Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor.</p>
+                        <a href="#" class="article__more">Read More</a>
+                    </article>
+                    <article>
+                        <a href="#"><img src="images/article-2.jpg" alt=""></a>
+                        <a href="#" class="article__title">
+                            <h3>Garden Maintenance</h3>
+                        </a>
+                        <p class="article__content">Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor.</p>
+                        <a href="#" class="article__more">Read More</a>
+                    </article>
+                    <article>
+                        <a href="#"><img src="images/article-3.jpg" alt=""></a>
+                        <a href="#" class="article__title">
+                            <h3>Garden Maintenance</h3>
+                        </a>
+                        <p class="article__content">Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor.</p>
+                        <a href="#" class="article__more">Read More</a>
+                    </article>
+                </div>
+                <div class="button-wrap">
+                    <a href="#" class="button">View All Services<span class="fas fa-arrow-right button-arrow"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="services-section dark-section p-bot-0">
+            <div class="services__container container">
+                <div class="section-header">
+                    <h2 class="section-header__title">Recent Projects</h2>
+                    <div class="section-header__icon">
+                        <div class="section-header__icon-wrap"><span class="fab fa-pagelines"></span></div>
+                    </div>
+                    <p class="section-header__text">Check out some of our recent landscaping projects.</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="gallery__item">
+                    <img src="images/project-decorative-brickwall-new-lawn.jpg" alt="">
+                    <div class="gallery__overlay">
+                        <div class="gallery__overlay-content">
+                            <div class="gallery__overlay-text">
+                                <h4 class="gallery__title">Driveway design and construction</h4>
+                                <a href="#" class="gallery__more">View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/project-driveway-design-construction.jpg" alt="">
+                    <div class="gallery__overlay">
+                        <div class="gallery__overlay-content">
+                            <div class="gallery__overlay-text">
+                                <h4 class="gallery__title">Driveway design and construction</h4>
+                                <a href="#" class="gallery__more">View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/project-large-decking-area-installation.jpg" alt="">
+                    <div class="gallery__overlay">
+                        <div class="gallery__overlay-content">
+                            <div class="gallery__overlay-text">
+                                <h4 class="gallery__title">Driveway design and construction</h4>
+                                <a href="#" class="gallery__more">View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/project-monthly-maintenance-commercial-premises.jpg" alt="">
+                    <div class="gallery__overlay">
+                        <div class="gallery__overlay-content">
+                            <div class="gallery__overlay-text">
+                                <h4 class="gallery__title">Driveway design and construction</h4>
+                                <a href="#" class="gallery__more">View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/project-patio-and-pergolas-installation.jpg" alt="">
+                    <div class="gallery__overlay">
+                        <div class="gallery__overlay-content">
+                            <div class="gallery__overlay-text">
+                                <h4 class="gallery__title">Driveway design and construction</h4>
+                                <a href="#" class="gallery__more">View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/project-wooden-fence-installation.jpg" alt="">
+                    <div class="gallery__overlay">
+                        <div class="gallery__overlay-content">
+                            <div class="gallery__overlay-text">
+                                <h4 class="gallery__title">Driveway design and construction</h4>
+                                <a href="#" class="gallery__more">View project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="testimonials" class="services-section">
+            <div class="services__container container">
+                <div class="section-header">
+                    <h2 class="section-header__title">What Our Clients Say</h2>
+                    <div class="section-header__icon">
+                        <div class="section-header__icon-wrap"><span class="fab fa-pagelines"></span></div>
+                    </div>
+                    <p class="section-header__text">We've been lucky enough to work with some amazing people. Take a look at what they have to say about us.</p>
+                </div>
+                <div class="testimonial-boxes">
+                    <div class="testimonial__box">
+                        <div class="testimonial__header">
+                            <img src="images/testimonial1-100x100.jpg" alt="">
+                            <div class="testimonial__header-wrap">
+                                <h4 class="testimonial__name">Jeremy Dixon</h4>
+                                <p class="testimonial__address">Milton Keynes West</p>
+                            </div>
+                        </div>
+                        <p class="testimonial__text">It has to be said, working with Edaps landscaping was an absolute pleasure. Right from the beginning of the project the team we're informative and always kept us in the loop. One very happy customer here. Thanks guys!</p>
+                    </div>
+                    <div class="testimonial__box">
+                        <div class="testimonial__header">
+                            <img src="images/testimonial2-100x100.jpg" alt="">
+                            <div class="testimonial__header-wrap">
+                                <h4 class="testimonial__name">Jeremy Dixon</h4>
+                                <p class="testimonial__address">Milton Keynes West</p>
+                            </div>
+                        </div>
+                        <p class="testimonial__text">It has to be said, working with Edaps landscaping was an absolute pleasure. Right from the beginning of the project the team we're informative and always kept us in the loop. One very happy customer here. Thanks guys!</p>
+                    </div>
+                    <div class="testimonial__box">
+                        <div class="testimonial__header">
+                            <img src="images/testimonial3-100x100.jpg" alt="">
+                            <div class="testimonial__header-wrap">
+                                <h4 class="testimonial__name">Jeremy Dixon</h4>
+                                <p class="testimonial__address">Milton Keynes West</p>
+                            </div>
+                        </div>
+                        <p class="testimonial__text">It has to be said, working with Edaps landscaping was an absolute pleasure. Right from the beginning of the project the team we're informative and always kept us in the loop. One very happy customer here. Thanks guys!</p>
+                    </div>
+                    <div class="testimonial__box">
+                        <div class="testimonial__header">
+                            <img src="images/testimonial4-100x100.jpg" alt="">
+                            <div class="testimonial__header-wrap">
+                                <h4 class="testimonial__name">Jeremy Dixon</h4>
+                                <p class="testimonial__address">Milton Keynes West</p>
+                            </div>
+                        </div>
+                        <p class="testimonial__text">It has to be said, working with Edaps landscaping was an absolute pleasure. Right from the beginning of the project the team we're informative and always kept us in the loop. One very happy customer here. Thanks guys!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects-2" class="services-section dark-section img-bg-section">
+            <div class="img-bg-section__overlay" style="z-index:1"></div>
+            <div class="services__container container" style="z-index:2; position: relative">
+                <div class="section-header">
+                    <h2 class="section-header__title">Have You Seen Enough?</h2>
+                    <div class="section-header__icon">
+                        <div class="section-header__icon-wrap"><span class="fab fa-pagelines"></span></div>
+                    </div>
+                    <p class="section-header__text">Get in touch with our professional team to discuss your landscaping project today.</p>
+                </div>
+                <div class="button-wrap">
+                    <a href="#" class="button">View All Services<span class="fas fa-arrow-right button-arrow"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="services" class="services-section">
+            <div class="services__container container">
+                <div class="section-header">
+                    <h2 class="section-header__title">Landscaping News</h2>
+                    <div class="section-header__icon">
+                        <div class="section-header__icon-wrap"><span class="fab fa-pagelines"></span></div>
+                    </div>
+                    <p class="section-header__text">All the latest news and views from the landscaping professionals</p>
+                </div>
+                <div class="section-articles">
+                    <article>
+                        <a href="#"><img src="images/article-1.jpg" alt=""></a>
+                        <a href="#" class="article__title">
+                            <h3>10 Amazing Ideas For Your Garden Design</h3>
+                        </a>
+                        <p class="article__date">20TH MARCH 2018</p>
+                        <p class="article__content">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus..</p>
+                        <a href="#" class="article__more">Read More</a>
+                    </article>
+                    <article>
+                        <a href="#"><img src="images/article-2.jpg" alt=""></a>
+                        <a href="#" class="article__title">
+                            <h3>10 Amazing Ideas For Your Garden Design</h3>
+                        </a>
+                        <p class="article__date">20TH MARCH 2018</p>
+                        <p class="article__content">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus..</p>
+                        <a href="#" class="article__more">Read More</a>
+                    </article>
+                    <article>
+                        <a href="#"><img src="images/article-3.jpg" alt=""></a>
+                        <a href="#" class="article__title">
+                            <h3>10 Amazing Ideas For Your Garden Design</h3>
+                        </a>
+                        <p class="article__date">20TH MARCH 2018</p>
+                        <p class="article__content">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus..</p>
+                        <a href="#" class="article__more">Read More</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer" class="footer-main">
+            <div class="footer__cols">
+                <div class="footer__container container">
+                    <div class="footer__col">
+                        <a href="/"><img src="images/logo-2.png" alt=""></a>
+                    </div>
+                    <div class="footer__col">
+                        <h3>Services</h3>
+                        <ul class="footer__list">
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Water Features</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Water Features</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Water Features</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Water Features</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Water Features</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Water Features</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h3>Quick Links</h3>
+                        <ul class="footer__list">
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Home</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Home</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Home</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Home</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Home</a></li>
+                            <li><a href="#"><span class="fas fa-arrow-right button-arrow-list"></span>Home</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__col">
+                        <h3>Opening Times</h3>
+                        <ul class="footer__list footer__list-flex">
+                            <li><span>Monday - Friday:</span><span><strong>8:00 - 17:30</strong></span></li>
+                            <li><span>Monday - Friday:</span><span><strong>8:00 - 17:30</strong></span></li>
+                            <li><span>Monday - Friday:</span><span><strong>8:00 - 17:30</strong></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copy">
+                <div class="footer__container container">
+                    <div class="copyright">&copy; 2018 <a href="/">Edaps</a>.</div>
+                    <div class="theme-author"><a href="https://devclick.uk" target="_blank">WordPress Theme</a> by Devclick</div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
